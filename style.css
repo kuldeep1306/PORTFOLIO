@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #051129;
+    background: #36413d;
     display: flex;
     justify-content: space-between;
     align-items:center ;
@@ -20,14 +20,14 @@
 }
 body{
     color: #ededed;
-    background: #081b29;
+    background: #36413d;
 }
 .logo{
     position: relative;
-    font-size: 25px;
-    color:#0ef;
+    font-size: 50px;
+    color:#4d0000;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     cursor: default;
     opacity: 0;
     animation: slideRight 1s ease forwards;
@@ -64,7 +64,7 @@ body{
     }
 }
 .navbar a:hover{
-    color:#0ef ;    
+    color:#f29696 ;    
 }
 .hamburger {
     display: none; /* Hidden by default */
@@ -282,9 +282,9 @@ body{
     position: relative;
     width: 100%;
     height: 100%;
-    background-color:rgb(8,27,41) ;
+    background-color:#f29696 ;
     border-radius: 50%;
-    border:.1px solid rgb(8,27,41);
+    border:.1px solid #f29696;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -406,8 +406,8 @@ body{
     border-right: 20px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7,
-                1px 1px 40px #0053b8f7; 
+    box-shadow: 1px 1px 20px #4c657e,
+                1px 1px 40px #4c657e; 
 }
 .services-list div i{
     font-size: 50px;
@@ -751,7 +751,7 @@ section{
 .contact-icon i:hover{
     background: #0ef;
     color: #000;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px rgb(15, 52, 54);
 
 }
 .contact-form form{
@@ -762,7 +762,7 @@ section{
     outline: none;
     width: 90%;
     padding: 18px;
-    background: #555557;
+    background: #e5ffb6;
     color: #000;
     font-size: 1rem;
     font-weight: 600;
@@ -810,8 +810,8 @@ section{
 
 }
 .top i{
-    color: #000;
-    background: #0ef;
+    color: #8bfff5;
+    background: rgb(0, 0, 0);
     font-size: 20px;
     border-radius: 0.5rem;
 }
@@ -1046,3 +1046,4 @@ section{
         margin: auto;
     }
 }
+
